@@ -9,4 +9,4 @@
 ## 联系方式
 
 - **电子邮件：** [1060554407@qq.com]
-- **GitHub：** (https://github.com/[https://zhuotiantian1.github.io/ZTT/#/])
+- **GitHub：** ([https://zhuotiantian1.github.io/ZTT/#/])

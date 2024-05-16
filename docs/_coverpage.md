@@ -3,7 +3,7 @@
 <style>
   body {
     /* 使用线性渐变背景色，从浅绿色到深绿色 */
-    background: linear-gradient(to bottom, #7FFF00, #006400);
+    background: linear-gradient(to bottom, #E6E6FA, #9370DB);
     font-family: Arial, sans-serif; /* 字体 */
   }
 

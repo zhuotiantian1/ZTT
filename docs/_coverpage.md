@@ -2,17 +2,18 @@
 
 <style>
   body {
-    background-color: #f2f2f2; /* 背景色 */
+    /* 使用线性渐变背景色，从浅绿色到深绿色 */
+    background: linear-gradient(to bottom, #7FFF00, #006400);
     font-family: Arial, sans-serif; /* 字体 */
   }
 
   h1 {
-    color: #333; /* 标题颜色 */
+    color: #fff; /* 标题颜色 */
     font-size: 3em; /* 标题字体大小 */
   }
 
   p {
-    color: #666; /* 描述文字颜色 */
+    color: #fff; /* 描述文字颜色 */
     font-size: 1.5em; /* 描述文字字体大小 */
   }
 

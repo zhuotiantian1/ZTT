@@ -19,9 +19,9 @@
 
 1. 登录你的GitHub账号。
 2. 创建一个公共存储库，然后您可以与您的团队一起创建web内容。  
-    ![图片1](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/a876c079a624d3ce907da503803aa2150b97cf8d/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/1.png)
+    ![图片1]（https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/1.png）
 3. 给您的存储库命名，选择公共或私有。添加一个README文件来共享您的信息，然后单击“create repository”按钮。  
-    ![图片2](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/a876c079a624d3ce907da503803aa2150b97cf8d/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/2.png)
+    ![图片2](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/2.png)
 4. 设置页面为空。单击存储库的设置，并选择左侧的“page”。选择“main”和“/root”并保存。上面的链接允许您查看该页。  
     ![图片3](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/a876c079a624d3ce907da503803aa2150b97cf8d/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/3.png)
 

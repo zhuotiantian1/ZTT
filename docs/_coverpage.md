@@ -22,7 +22,7 @@
   }
 </style>
 
-# 欢迎来到我的网站！
+# Welcome to my website ！
 # 卓甜甜 Mary
 
-[开始阅读](README.md)
+[start](README.md)

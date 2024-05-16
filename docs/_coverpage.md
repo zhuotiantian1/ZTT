@@ -25,3 +25,4 @@
 
 # Welcome to my website ！
 # 卓甜甜 Mary
+[开始阅读](README.md)

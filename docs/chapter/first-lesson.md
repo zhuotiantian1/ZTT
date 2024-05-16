@@ -28,31 +28,31 @@
 <h3 style="color: #e19cab;">邀请团队成员</h3>
 
 1. 打开创建的存储库。    
-   ![图片4](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/4.png)
+   ![图片4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/4.png)
 2. 单击“设置”，在左侧找到“协作者”，然后单击“添加人员”，输入他们的电子邮件地址并设置他们的身份（maintain）。  
-   ![图片5](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/5.png)  
-   ![图片6](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/6.png)
+   ![图片5](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/5.png)  
+   ![图片6](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/6.png)
 
 <h3 style="color: #e19cab;">网络上传</h3>
 
 将存储库克隆到GitHub。
 
 1. 点击“添加”，“克隆资源”，找到需要克隆的存储库。最后按一下克隆。  
-   ![图片7](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/7.png)  
-   ![图片8](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/8.png)
+   ![图片7](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/7.png)  
+   ![图片8](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/8.png)
 
 <h3 style="color: #e19cab;">Github桌面登录</h3>
 
 1. 找到您的存储库，单击打开“在Visual Studio Code中打开”，在Visual Studio Code中输入新内容并保存。  
-   ![图片9](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/9.png)
+   ![图片9](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/9.png)
 2. 文档更改后，在第一个框中输入任何内容，然后单击Commit to main，然后push origin，如果图标显示为循环，则同步成功。  
-   ![图片10](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/10.png)  
-   ![图片11](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/11.png)
+   ![图片10](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/10.png)  
+   ![图片11](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/11.png)
 
 <h3 style="color: #e19cab;">Docsify</h3>
 
 打开VScode，新建终端。  
-![图片12](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/12.png)
+![图片12](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/12.png)
 
 点开setting，找到developer setting，点击Tokens（classic）选择generate new token（classic）再在note中输入名称，将expiration改成想要的时间，然后将repo，workflow，write：packages全选上，生成密钥，然后复制。
 
@@ -74,12 +74,12 @@
 3. 进入图床设置
 4. 获取密钥
 5. 设定自定义域名使用cdn加速https://cdn.jsdelivr.net/gh/用户名/图床仓库名，完成Picgo设置  
-   ![图片13](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/13.png)  
-   ![图片14](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/14.png)  
-   ![图片15](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/15.png)
+   ![图片13](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/13.png)  
+   ![图片14](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/14.png)  
+   ![图片15](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/15.png)
 6. 点击图床设置，找到GitHub，将密钥复制到token上，其他的按要求填完。  
-   ![图片16](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/16.png)
+   ![图片16](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/16.png)
 7. 接着将图片拖拽到上传区，在相册中查看是否上传成功，同时可以复制图片路径  
-   ![图片17](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/17.png)  
-   ![图片18](https://github.com/NexMaker-Fab/2024ZWU-IS-BUNBUN/raw/0f6d4c38c0192d8f96731a41af4871b3a96126f4/images/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/18.png)
+   ![图片17](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/17.png)  
+   ![图片18](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/18.png)
    (ps. 如果picgo配置一直失败，可以直接在Github仓库中创建存放images的文件夹，并Add file。)

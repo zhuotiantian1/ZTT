@@ -1,131 +1,141 @@
-<h1 style="color: #e19cab;">怎样建设一个网站</h1>
-<h2 style="color: #e19cab;">1. 准备</h2>
+Sure, here's the translation of the Chinese text into English:
+
+```markdown
+<h1 style="color: #e19cab;">How to Build a Website</h1>
+<h2 style="color: #e19cab;">1. Preparation</h2>
   
-我们将使用以下工具来构建我们自己的网页：
+We will use the following tools to build our own website:
 
-- Git：用于控制我们在GitLab中的版本。（ps. 经验所言，Mac也是需要下载并安装的哦，同时在安装时，记得断网，不然会卡住的。)
-- 使用GitHub作为我们网页的服务。
-- GitHub桌面：方便我们将编码从本地传输到GitHub。
-- 使用Node.js构建环境。
-- 用于写文档的VScode。
-- 撰写我们文档的Markdown语言。
-- 图片上传服务，我们使用PicGo将我们的图片存储在云端（例如在GitLab），并在标记文档中使用。
+- Git: Used for version control on GitLab. (P.S. From experience, Mac users also need to download and install it. Remember to disconnect from the internet during installation, otherwise, it might get stuck.)
+- GitHub: Used as our web hosting service.
+- GitHub Desktop: Facilitates transferring code from local to GitHub.
+- Node.js for building environment.
+- VScode for writing documents.
+- Markdown language for writing our documents.
+- Image upload service: We use PicGo to store our images in the cloud (for example, on GitLab) and use them in our markdown documents.
 
-<h2 style="color: #e19cab;">2. 网页设置</h2>
+<h2 style="color: #e19cab;">2. Website Setup</h2>
 
-<h3 style="color: #e19cab;">创建GitHub存储库</h3>
+<h3 style="color: #e19cab;">Creating a GitHub Repository</h3>
 
-首先，你需要在GitHub上创建一个新的存储库来托管你的网站。
+First, you need to create a new repository on GitHub to host your website.
 
-1. 登录你的GitHub账号。
-2. 创建一个公共存储库，然后您可以与您的团队一起创建web内容。  
-    ![图片1]（https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/1.png）
-3. 给您的存储库命名，选择公共或私有。添加一个README文件来共享您的信息，然后单击“create repository”按钮。  
-    ![图片2](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/2.png)
-4. 设置页面为空。单击存储库的设置，并选择左侧的“page”。选择“main”和“/root”并保存。上面的链接允许您查看该页。  
-    ![图片3](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/3.png)
+1. Log in to your GitHub account.
+2. Create a new public repository where you can collaborate with your team to create web content.  
+    ![Image 1](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/1.png)
+3. Name your repository, choose between public or private, add a README file to share information, and then click the "Create repository" button.  
+    ![Image 2](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/2.png)
+4. Leave the page settings empty. Click on the repository's settings, select "Pages" from the left, choose "main" and "/root", then save. The link above allows you to view the page.  
+    ![Image 3](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/3.png)
 
-<h3 style="color: #e19cab;">邀请团队成员</h3>
+<h3 style="color: #e19cab;">Inviting Team Members</h3>
 
-1. 打开创建的存储库。    
-   ![图片4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/4.png)
-2. 单击“设置”，在左侧找到“协作者”，然后单击“添加人员”，输入他们的电子邮件地址并设置他们的身份（maintain）。  
-   ![图片5](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/5.png)  
-   ![图片6](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/6.png)
+1. Open the created repository.  
+   ![Image 4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/4.png)
+2. Click on "Settings", find "Collaborators" on the left, then click "Add people", enter their email addresses, and set their roles (maintainer).  
+   ![Image 5](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/5.png)  
+   ![Image 6](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/6.png)
 
-<h3 style="color: #e19cab;">网络上传</h3>
+<h3 style="color: #e19cab;">Uploading to the Web</h3>
 
-将存储库克隆到GitHub。
+Clone the repository to GitHub.
 
-1. 点击“添加”，“克隆资源”，找到需要克隆的存储库。最后按一下克隆。  
-   ![图片7](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/7.png)  
-   ![图片8](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/8.png)
+1. Click "Add", "Clone repository", find the repository you want to clone, and finally click "Clone".  
+   ![Image 7](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/7.png)  
+   ![Image 8](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/8.png)
 
-<h3 style="color: #e19cab;">Github桌面登录</h3>
+<h3 style="color: #e19cab;">GitHub Desktop Login</h3>
 
-1. 找到您的存储库，单击打开“在Visual Studio Code中打开”，在Visual Studio Code中输入新内容并保存。  
-   ![图片9](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/9.png)
-2. 文档更改后，在第一个框中输入任何内容，然后单击Commit to main，然后push origin，如果图标显示为循环，则同步成功。  
-   ![图片10](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/10.png)  
-   ![图片11](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/11.png)
+1. Find your repository, click on "Open in Visual Studio Code", input new content in Visual Studio Code, and save.  
+   ![Image 9](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/9.png)
+2. After document changes, input anything in the first box, then click "Commit to main", and then "Push origin". If the icon shows a loop, the sync is successful.  
+   ![Image 10](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/10.png)  
+   ![Image 11](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/11.png)
 
-<h2 style="color: #e19cab;">如何部署并分析 Docsify 文档网站</h2>
-Docsify 是一个轻量级的文档网站生成工具，使用它可以快速构建具有交互性的文档网站。下面是一份简要的教程，介绍如何使用 Docsify 部署并分析文档网站。
-<h3 style="color: #e19cab;">1.准备工作：</h3>
-确保你的电脑上已经安装了 Node.js 和 npm。你可以在终端（打开VScode，新建终端
-）或命令提示符中运行以下命令来检查是否安装：
+<h2 style="color: #e19cab;">How to Deploy and Analyze a Docsify Document Website</h2>
+Docsify is a lightweight documentation website generation tool that allows you to quickly build interactive documentation websites. Below is a brief tutorial on how to deploy and analyze a document website using Docsify.
+
+<h3 style="color: #e19cab;">1. Preparation:</h3>
+Ensure that Node.js and npm are installed on your computer. You can check if they are installed by running the following commands in the terminal (open VScode, open a new terminal) or command prompt:
 
    `node -v`
    `npm -v`
 
-![图片12](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/12.png)
-如果未安装，你可以从 Node.js 的官方网站下载并安装：https://nodejs.org/
+   ![Image 12](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/12.png)
 
-点开setting，找到developer setting，点击Tokens（classic）选择generate new token（classic）再在note中输入名称，将expiration改成想要的时间，然后将repo，workflow，write：packages全选上，生成密钥，然后复制。
+   If not installed, you can download and install them from the official Node.js website: https://nodejs.org/
 
-<h3 style="color: #e19cab;">2.安装docsify</h3>
+   Open settings, find developer settings, click on Tokens (classic), select "generate new token" (classic), then enter a name in the note, change the expiration as desired, select repo, workflow, write: packages, and generate the token, then copy it.
 
+<h3 style="color: #e19cab;">2. Installing Docsify</h3>
 
-1. 安装docsify：输入以下代码  
+1. Install Docsify: Enter the following code  
    `npm i docsify-cli -g`
-![图片19](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/19.png)
+   ![Image 19](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/19.png)
 
-2. 确定位置，然后初始化环境：输入以下代码后，在黄色框处输入y
+2.<h3 style="color: #e19cab;">2. Installing Docsify (continued)</h3>
+
+2. Determine the location, then initialize the environment: Enter the following code, and input 'y' when prompted in the yellow box  
    `docsify init ./docs`
-![图片20](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/20.png)
+   ![Image 20](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/20.png)
 
-3. 预览：  
+3. Preview:  
    `docsify serve docs`
-4. 浏览器访问：http://localhost:3000
-![图片21](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/21.jpg）
+4. Browser access: http://localhost:3000
+   ![Image 21](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/21.jpg)
 
+<h3 style="color: #e19cab;">3. Creating Website Cover Page:</h3>
 
-<h3 style="color: #e19cab;">3.创建网页封面：</h3>
+1. Create a new folder to store your Docsify project and create an HTML file named index.html in that folder. In Visual Studio Code, select "File" > "New File" > "HTML File" as the file type and name the file.
 
-1.创建一个新的文件夹来存放你的 Docsify 项目，并在该文件夹中创建一个名为 index.html 的 HTML 文件。在 Visual Studio 中，选择“文件” > “新建” > “文件”，选择“HTML 文件”作为文件类型，并为文件命名。
+   ![Image 22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/22.png)
 
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/22.png）
+2. Write configuration and content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Inside the <body> tag, write the content of the website cover, including title, slogan, background image or video, etc.
 
-2. 编写配置和内容：在新建的 HTML 文件中编写网页的基本结构，包括 <html>、<head> 和 <body> 标签。在 <body> 标签内部，编写网页封面的内容，包括标题、标语、背景图片或视频等。
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/24.jpg）
+   ![Image 23](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/23.jpg)
 
-3.   添加 CSS 样式：在 <head> 标签内部，使用 <style> 标签或链接外部 CSS 文件，为网页封面添加样式，包括调整背景图片的大小、文字的颜色和大小等。
-4.测试和调试：保存文件后，在浏览器中打开 HTML 文件，查看网页封面的效果，并进行必要的调试和修改，直到达到预期的效果。
+3. Add CSS styles: Inside the <head> tag, use <style> tags or link external CSS files to add styles to the website cover, including adjusting the size of background images, text colors, and sizes, etc.
 
-<h3 style="color: #e19cab;">4.设置cover page</h3>
+4. Test and debug: After saving the file, open it in a browser to view the effect of the website cover, and make necessary debugging and modifications until the desired effect is achieved.
 
-1.建立一个cover page 文件
+<h3 style="color: #e19cab;">4. Setting Up Cover Page:</h3>
 
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/25.png）
+1. Create a cover page file.
 
-<h3 style="color: #e19cab;">5.建立sidebar：</h3>
-1.在网页封面中添加侧边栏容器：在网页封面的 HTML 结构中，添加一个 <div> 或其他容器元素，作为侧边栏的容器。
-2.编写侧边栏内容：在侧边栏容器内部，编写侧边栏的内容，包括导航链接、搜索框、个人资料或信息等。
+   ![Image 24](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/24.jpg)
 
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/26.png）
+<h3 style="color: #e19cab;">5. Creating Sidebar:</h3>
 
-3.为侧边栏添加 CSS 样式：使用 CSS 样式为侧边栏容器和其中的内容添加样式，包括设置背景颜色、边框样式、文字样式等。
-4.测试和调试：保存文件后，在浏览器中查看网页封面和侧边栏的效果，确保它们在不同设备上都能够正确显示和响应。
+1. Add a sidebar container to the website cover: In the HTML structure of the website cover, add a <div> or other container element as the sidebar container.
 
-<h2 style="color: #e19cab;">5. 部署到 GitHub Pages（可选）：</h2>
-如果你希望将文档网站部署到 GitHub Pages 上，可以将 Docsify 项目推送到 GitHub 仓库，并启用 GitHub Pages 功能。
+2. Write sidebar content: Inside the sidebar container, write the content of the sidebar, including navigation links, search boxes, personal profiles or information, etc.
 
+   ![Image 25](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/25.png)
 
+3. Add CSS styles to the sidebar: Use CSS styles to add styles to the sidebar container and its content, including setting background colors, border styles, text styles, etc.
 
+4. Test and debug: After saving the file, view the website cover and sidebar effects in the browser to ensure they are displayed correctly and responsive on different devices.
 
-<h3 style="color: #e19cab;">图片上传</h3>
+<h2 style="color: #e19cab;">5. Deploying to GitHub Pages (Optional):</h2>
 
-1. 安装Picgo
-2. 在GitHub上新建图片仓库
-3. 进入图床设置
-4. 获取密钥
-5. 设定自定义域名使用cdn加速https://cdn.jsdelivr.net/gh/用户名/图床仓库名，完成Picgo设置  
-   ![图片13](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/13.png)  
-   ![图片14](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/14.png)  
-   ![图片15](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/15.png)
-6. 点击图床设置，找到GitHub，将密钥复制到token上，其他的按要求填完。  
-   ![图片16](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/16.png)
-7. 接着将图片拖拽到上传区，在相册中查看是否上传成功，同时可以复制图片路径  
-   ![图片17](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/17.png)  
-   ![图片18](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/18.png)
-   (ps. 如果picgo配置一直失败，可以直接在Github仓库中创建存放images的文件夹，并Add file。)
+If you want to deploy the documentation website to GitHub Pages, you can push the Docsify project to a GitHub repository and enable the GitHub Pages feature.
+
+<h3 style="color: #e19cab;">Image Upload:</h3>
+
+1. Install PicGo.
+2. Create a new image repository on GitHub.
+3. Access the image bed settings.
+4. Get the key.
+5. Set up a custom domain using CDN acceleration: https://cdn.jsdelivr.net/gh/username/repositoryname.
+6. Click on image bed settings, find GitHub, paste the key into the token, and fill in the rest as required.
+
+   ![Image 13](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/13.png)
+   ![Image 14](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/14.png)
+   ![Image 15](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/15.png)
+
+7. Drag and drop the images to the upload area, check if they are uploaded successfully in the album, and you can also copy the image path.
+
+   ![Image 17](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/17.png)
+   ![Image 18](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/18.png)
+   (P.S. If the PicGo configuration fails continuously, you can directly create a folder named 'images' in the GitHub repository to store the images and add them.)
+

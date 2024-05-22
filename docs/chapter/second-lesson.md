@@ -91,7 +91,7 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
    `docsify serve docs`
 4. Access in browser:：http://localhost:3000
 
-![图片21](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/21.jpg）
+![图片21](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/21.jpg)
 
 <h3 style="color: #e19cab;">3. Creating Webpage Cover:</h3>
 

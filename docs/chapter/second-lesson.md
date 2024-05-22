@@ -91,17 +91,17 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
    `docsify serve docs`
 4. Access in browser:：http://localhost:3000
 
-![图片21](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/21.jpg)
+![图片21](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/21.jpg)
 
 <h3 style="color: #e19cab;">3. Creating Webpage Cover:</h3>
 
 1. Create a new folder to store your Docsify project, and within that folder, create an HTML file named index.html. In Visual Studio, select "File" > "New" > "File", choose "HTML File" as the file type, and name the file.
 
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/22.png）
+![图片22](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/22.png)
 
 2. Write Configuration and Content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Within the <body> tag, write the content of the webpage cover, including titles, slogans, background images or videos, etc.
 
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/24.jpg）
+![图片24](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/24.jpg)
 
 3. Add CSS Styles: Within the <head> tag, use <style> tags or link external CSS files to add styles to the webpage cover, including adjusting the size of background images, text color, and size, etc.
 
@@ -111,7 +111,7 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 
 1. Create a cover page file.
 
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/25.png）
+![图片25]![](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/25.png)
 
 <h3 style="color: #e19cab;">5.建立sidebar：</h3>
 
@@ -119,7 +119,7 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 
 2. Write Sidebar Content: Within the sidebar container, write the content of the sidebar, including navigation links, search box, personal profile or information, etc.
 
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/26.png）
+![图片26](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/26.png)
 
 3. Add CSS Styles to the Sidebar: Use CSS styles to add styles to the sidebar container and its contents, including setting background color, border styles, text styles, etc.
 

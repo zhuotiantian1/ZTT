@@ -68,26 +68,26 @@ Docsify 是一个轻量级的文档网站生成工具，使用它可以快速构
 
 1. 安装docsify：输入以下代码  
    `npm i docsify-cli -g`
-![图片19](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/19.png)
+![图片19](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/19.png)
 
 2. 确定位置，然后初始化环境：输入以下代码后，在黄色框处输入y
    `docsify init ./docs`
-![图片20](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/20.png)
+![图片20](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/20.png)
 
 3. 预览：  
    `docsify serve docs`
 4. 浏览器访问：http://localhost:3000
-![图片21](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/21.jpg）
+![图片21](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/21.jpg）
 
 
 <h3 style="color: #e19cab;">3.创建网页封面：</h3>
 
 1.创建一个新的文件夹来存放你的 Docsify 项目，并在该文件夹中创建一个名为 index.html 的 HTML 文件。在 Visual Studio 中，选择“文件” > “新建” > “文件”，选择“HTML 文件”作为文件类型，并为文件命名。
 
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/22.png）
+![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/22.png）
 
 2. 编写配置和内容：在新建的 HTML 文件中编写网页的基本结构，包括 <html>、<head> 和 <body> 标签。在 <body> 标签内部，编写网页封面的内容，包括标题、标语、背景图片或视频等。
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/24.jpg）
+![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/24.jpg）
 
 3.   添加 CSS 样式：在 <head> 标签内部，使用 <style> 标签或链接外部 CSS 文件，为网页封面添加样式，包括调整背景图片的大小、文字的颜色和大小等。
 4.测试和调试：保存文件后，在浏览器中打开 HTML 文件，查看网页封面的效果，并进行必要的调试和修改，直到达到预期的效果。
@@ -96,13 +96,13 @@ Docsify 是一个轻量级的文档网站生成工具，使用它可以快速构
 
 1.建立一个cover page 文件
 
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/25.png）
+![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/25.png）
 
 <h3 style="color: #e19cab;">5.建立sidebar：</h3>
 1.在网页封面中添加侧边栏容器：在网页封面的 HTML 结构中，添加一个 <div> 或其他容器元素，作为侧边栏的容器。
 2.编写侧边栏内容：在侧边栏容器内部，编写侧边栏的内容，包括导航链接、搜索框、个人资料或信息等。
 
-![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/26.png）
+![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/26.png）
 
 3.为侧边栏添加 CSS 样式：使用 CSS 样式为侧边栏容器和其中的内容添加样式，包括设置背景颜色、边框样式、文字样式等。
 4.测试和调试：保存文件后，在浏览器中查看网页封面和侧边栏的效果，确保它们在不同设备上都能够正确显示和响应。

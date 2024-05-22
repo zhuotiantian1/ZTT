@@ -1,141 +1,145 @@
-Sure, here's the translation of the Chinese text into English:
-
-```markdown
 <h1 style="color: #e19cab;">How to Build a Website</h1>
 <h2 style="color: #e19cab;">1. Preparation</h2>
   
-We will use the following tools to build our own website:
+We will use the following tools to construct our own web page:
 
-- Git: Used for version control on GitLab. (P.S. From experience, Mac users also need to download and install it. Remember to disconnect from the internet during installation, otherwise, it might get stuck.)
-- GitHub: Used as our web hosting service.
-- GitHub Desktop: Facilitates transferring code from local to GitHub.
+- Git: Used to control versions of our code in GitLab. (PS. Based on experience, Mac users also need to download and install it. Remember to disconnect from the internet during installation, or it might get stuck.)
+- GitHub: Serving as our web page hosting service.
+- GitHub Desktop: Facilitating the transfer of our code from local to GitHub.
 - Node.js for building environment.
-- VScode for writing documents.
+- VScode for document writing.
 - Markdown language for writing our documents.
-- Image upload service: We use PicGo to store our images in the cloud (for example, on GitLab) and use them in our markdown documents.
+- Image upload service: We use PicGo to store our images in the cloud (e.g., on GitLab) and use them in our markup documents.
 
-<h2 style="color: #e19cab;">2. Website Setup</h2>
+<h2 style="color: #e19cab;">2. Web Page Setup</h2>
 
-<h3 style="color: #e19cab;">Creating a GitHub Repository</h3>
+<h3 style="color: #e19cab;">Creating GitHub Repository</h3>
 
-First, you need to create a new repository on GitHub to host your website.
+Firstly, you need to create a new repository on GitHub to host your website.
 
 1. Log in to your GitHub account.
-2. Create a new public repository where you can collaborate with your team to create web content.  
-    ![Image 1](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/1.png)
-3. Name your repository, choose between public or private, add a README file to share information, and then click the "Create repository" button.  
-    ![Image 2](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/2.png)
-4. Leave the page settings empty. Click on the repository's settings, select "Pages" from the left, choose "main" and "/root", then save. The link above allows you to view the page.  
-    ![Image 3](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/3.png)
+2. Create a public repository where you can collaborate with your team to create web content.
 
-<h3 style="color: #e19cab;">Inviting Team Members</h3>
+![图片1]（https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/1.png）
 
-1. Open the created repository.  
-   ![Image 4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/4.png)
-2. Click on "Settings", find "Collaborators" on the left, then click "Add people", enter their email addresses, and set their roles (maintainer).  
-   ![Image 5](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/5.png)  
-   ![Image 6](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/6.png)
+3. Name your repository, choose whether it's public or private. Add a README file to share your information, then click the "create repository" button.
 
-<h3 style="color: #e19cab;">Uploading to the Web</h3>
+    ![图片2](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/2.png)
+4. 
+Set the page to be empty. Click on the settings of the repository and select "Pages" on the left. Choose "main" and "/root" and save. The link above allows you to view the page.
+    ![图片3](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/3.png)
+
+
+<h3 style="color: #e19cab;">Invite Team Members</h3>
+
+1. Open the created repository.
+   ![图片4](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/4.png)
+
+2. Click on "Settings", find "Collaborators" on the left, then click "Add people", enter their email addresses, and set their role (maintainer). 
+   
+   ![图片5](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/5.png)  
+   ![图片6](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/6.png)
+
+<h3 style="color: #e19cab;">Upload to Web</h3>
 
 Clone the repository to GitHub.
 
-1. Click "Add", "Clone repository", find the repository you want to clone, and finally click "Clone".  
-   ![Image 7](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/7.png)  
-   ![Image 8](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/8.png)
+1. Click on "Add", "Clone a resource", find the repository you want to clone. Finally, click "Clone".
+
+   ![图片7](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/7.png)  
+   ![图片8](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/8.png)
 
 <h3 style="color: #e19cab;">GitHub Desktop Login</h3>
 
-1. Find your repository, click on "Open in Visual Studio Code", input new content in Visual Studio Code, and save.  
-   ![Image 9](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/9.png)
-2. After document changes, input anything in the first box, then click "Commit to main", and then "Push origin". If the icon shows a loop, the sync is successful.  
-   ![Image 10](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/10.png)  
-   ![Image 11](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/11.png)
+1. Find your repository, click "Open in Visual Studio Code", input new content in Visual Studio Code, and save.
 
-<h2 style="color: #e19cab;">How to Deploy and Analyze a Docsify Document Website</h2>
-Docsify is a lightweight documentation website generation tool that allows you to quickly build interactive documentation websites. Below is a brief tutorial on how to deploy and analyze a document website using Docsify.
+   ![图片9](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/9.png)
+
+2. After making changes to the document, input any content in the first box, then click "Commit to main", and then "Push origin". If the icon displays a loop, synchronization is successful.
+
+   ![图片10](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/10.png)  
+   ![图片11](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/11.png)
+
+<h2 style="color: #e19cab;">How to Deploy and Analyze Docsify Document Website</h2>
+Docsify is a lightweight document website generation tool that allows you to quickly build interactive document websites. Below is a brief tutorial on how to deploy and analyze a document website using Docsify.
 
 <h3 style="color: #e19cab;">1. Preparation:</h3>
-Ensure that Node.js and npm are installed on your computer. You can check if they are installed by running the following commands in the terminal (open VScode, open a new terminal) or command prompt:
+Ensure that Node.js and npm are installed on your computer. You can run the following commands in the terminal (open VScode, open a new terminal) or command prompt to check if they are installed:
 
-   `node -v`
-   `npm -v`
+   <code>node -v</code>
+   <code>npm -v</code>
 
-   ![Image 12](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/12.png)
 
-   If not installed, you can download and install them from the official Node.js website: https://nodejs.org/
+![图片12](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/12.png)
 
-   Open settings, find developer settings, click on Tokens (classic), select "generate new token" (classic), then enter a name in the note, change the expiration as desired, select repo, workflow, write: packages, and generate the token, then copy it.
+If not installed, you can download and install from the official website of Node.js: [https://nodejs.org/](https://nodejs.org/)
 
-<h3 style="color: #e19cab;">2. Installing Docsify</h3>
+Click on "Setting", find "Developer Setting", click on "Tokens (classic)", select "generate new token (classic)", then enter a name in the note, change the expiration to the desired time, then select "repo", "workflow", "write:packages", generate the key, and then copy it.
 
-1. Install Docsify: Enter the following code  
-   `npm i docsify-cli -g`
-   ![Image 19](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/19.png)
+<h3 style="color: #e19cab;">2. Install Docsify</h3>
 
-2.<h3 style="color: #e19cab;">2. Installing Docsify (continued)</h3>
+1. Install Docsify: Input the following code
+   <code>npm i docsify-cli -g</code>
 
-2. Determine the location, then initialize the environment: Enter the following code, and input 'y' when prompted in the yellow box  
+![图片19](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/19.png)
+
+2. Determine the location, then initialize the environment: After entering the following code, input y in the yellow box.
    `docsify init ./docs`
-   ![Image 20](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/20.png)
+![图片20](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/20.png)
 
-3. Preview:  
+3.Preview:  
    `docsify serve docs`
-4. Browser access: http://localhost:3000
-   ![Image 21](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/21.jpg)
+4. Access in browser:：http://localhost:3000
+![图片21](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/21.jpg）
 
-<h3 style="color: #e19cab;">3. Creating Website Cover Page:</h3>
+<h3 style="color: #e19cab;">3. Creating Webpage Cover:</h3>
 
-1. Create a new folder to store your Docsify project and create an HTML file named index.html in that folder. In Visual Studio Code, select "File" > "New File" > "HTML File" as the file type and name the file.
+1. Create a new folder to store your Docsify project, and within that folder, create an HTML file named index.html. In Visual Studio, select "File" > "New" > "File", choose "HTML File" as the file type, and name the file.
 
-   ![Image 22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/22.png)
+![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/22.png）
 
-2. Write configuration and content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Inside the <body> tag, write the content of the website cover, including title, slogan, background image or video, etc.
+2. Write Configuration and Content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Within the <body> tag, write the content of the webpage cover, including titles, slogans, background images or videos, etc.
 
-   ![Image 23](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/23.jpg)
+![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/24.jpg）
 
-3. Add CSS styles: Inside the <head> tag, use <style> tags or link external CSS files to add styles to the website cover, including adjusting the size of background images, text colors, and sizes, etc.
+3. Add CSS Styles: Within the <head> tag, use <style> tags or link external CSS files to add styles to the webpage cover, including adjusting the size of background images, text color, and size, etc.
 
-4. Test and debug: After saving the file, open it in a browser to view the effect of the website cover, and make necessary debugging and modifications until the desired effect is achieved.
+4. Testing and Debugging: After saving the file, open the HTML file in a browser to view the effect of the webpage cover and perform necessary debugging and modifications until the desired effect is achieved.
 
-<h3 style="color: #e19cab;">4. Setting Up Cover Page:</h3>
+<h3 style="color: #e19cab;">4. Setting up the Cover Page</h3>
 
 1. Create a cover page file.
 
-   ![Image 24](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/24.jpg)
+![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/25.png）
 
-<h3 style="color: #e19cab;">5. Creating Sidebar:</h3>
+<h3 style="color: #e19cab;">5.建立sidebar：</h3>
 
-1. Add a sidebar container to the website cover: In the HTML structure of the website cover, add a <div> or other container element as the sidebar container.
+1. Add a Sidebar Container in the Webpage Cover: In the HTML structure of the webpage cover, add a <div> or other container element as the container for the sidebar.
+2. Write Sidebar Content: Within the sidebar container, write the content of the sidebar, including navigation links, search box, personal profile or information, etc.
 
-2. Write sidebar content: Inside the sidebar container, write the content of the sidebar, including navigation links, search boxes, personal profiles or information, etc.
+![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/26.png）
 
-   ![Image 25](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/25.png)
+3. Add CSS Styles to the Sidebar: Use CSS styles to add styles to the sidebar container and its contents, including setting background color, border styles, text styles, etc.
+4. Testing and Debugging: After saving the file, view the effect of the webpage cover and sidebar in a browser to ensure they display and respond correctly on different devices.
 
-3. Add CSS styles to the sidebar: Use CSS styles to add styles to the sidebar container and its content, including setting background colors, border styles, text styles, etc.
+<h2 style="color: #e19cab;">5. Deploy to GitHub Pages (Optional):</h2>
+If you want to deploy the document website to GitHub Pages, you can push the Docsify project to a GitHub repository and enable the GitHub Pages feature.
 
-4. Test and debug: After saving the file, view the website cover and sidebar effects in the browser to ensure they are displayed correctly and responsive on different devices.
-
-<h2 style="color: #e19cab;">5. Deploying to GitHub Pages (Optional):</h2>
-
-If you want to deploy the documentation website to GitHub Pages, you can push the Docsify project to a GitHub repository and enable the GitHub Pages feature.
-
-<h3 style="color: #e19cab;">Image Upload:</h3>
+<h3 style="color: #e19cab;">Image Upload</h3>
 
 1. Install PicGo.
 2. Create a new image repository on GitHub.
 3. Access the image bed settings.
-4. Get the key.
-5. Set up a custom domain using CDN acceleration: https://cdn.jsdelivr.net/gh/username/repositoryname.
-6. Click on image bed settings, find GitHub, paste the key into the token, and fill in the rest as required.
+4. Obtain the key.
+5. Set the custom domain to use CDN acceleration. For example, `https://cdn.jsdelivr.net/gh/username/repository`, complete the PicGo setup.
 
-   ![Image 13](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/13.png)
-   ![Image 14](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/14.png)
-   ![Image 15](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/15.png)
-
-7. Drag and drop the images to the upload area, check if they are uploaded successfully in the album, and you can also copy the image path.
-
-   ![Image 17](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/17.png)
-   ![Image 18](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/18.png)
-   (P.S. If the PicGo configuration fails continuously, you can directly create a folder named 'images' in the GitHub repository to store the images and add them.)
-
+   ![图片13](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/13.png)  
+   ![图片14](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/14.png)  
+   ![图片15](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/15.png)
+6. 点击图床设置，找到GitHub，将密钥复制到token上，其他的按要求填完。  
+   ![图片16](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/16.png)
+7. 接着将图片拖拽到上传区，在相册中查看是否上传成功，同时可以复制图片路径  
+   ![图片17](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/17.png)  
+   ![图片18](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/18.png)
+  
+  (ps. If PicGo configuration keeps failing, you can directly create a folder named "images" in your GitHub repository and add files to it.)

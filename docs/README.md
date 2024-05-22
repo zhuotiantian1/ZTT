@@ -1,7 +1,7 @@
 # ZTT
 # Self Introduction
 
-![Profile Picture](https://your-profile-pic-url)
+![Profile Picture](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/25331716365409_.pic_hd.jpg)
 
 - **Name:** 卓甜甜 (Mary)
 - **Hobbies:** Singing and Photography

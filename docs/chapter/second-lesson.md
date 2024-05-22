@@ -90,6 +90,7 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 3.Preview:  
    `docsify serve docs`
 4. Access in browser:：http://localhost:3000
+
 ![图片21](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/21.jpg）
 
 <h3 style="color: #e19cab;">3. Creating Webpage Cover:</h3>
@@ -115,11 +116,13 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 <h3 style="color: #e19cab;">5.建立sidebar：</h3>
 
 1. Add a Sidebar Container in the Webpage Cover: In the HTML structure of the webpage cover, add a <div> or other container element as the container for the sidebar.
+
 2. Write Sidebar Content: Within the sidebar container, write the content of the sidebar, including navigation links, search box, personal profile or information, etc.
 
 ![图片22](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/26.png）
 
 3. Add CSS Styles to the Sidebar: Use CSS styles to add styles to the sidebar container and its contents, including setting background color, border styles, text styles, etc.
+
 4. Testing and Debugging: After saving the file, view the effect of the webpage cover and sidebar in a browser to ensure they display and respond correctly on different devices.
 
 <h2 style="color: #e19cab;">5. Deploy to GitHub Pages (Optional):</h2>
@@ -134,12 +137,19 @@ If you want to deploy the document website to GitHub Pages, you can push the Doc
 5. Set the custom domain to use CDN acceleration. For example, `https://cdn.jsdelivr.net/gh/username/repository`, complete the PicGo setup.
 
    ![图片13](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/13.png)  
+
    ![图片14](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/14.png)  
+
    ![图片15](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/15.png)
+
 6. 点击图床设置，找到GitHub，将密钥复制到token上，其他的按要求填完。  
+
    ![图片16](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/16.png)
-7. 接着将图片拖拽到上传区，在相册中查看是否上传成功，同时可以复制图片路径  
+
+7. 接着将图片拖拽到上传区，在相册中查看是否上传成功，同时可以复制图片路径 
+
    ![图片17](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/17.png)  
+
    ![图片18](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/18.png)
   
   (ps. If PicGo configuration keeps failing, you can directly create a folder named "images" in your GitHub repository and add files to it.)

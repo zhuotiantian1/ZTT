@@ -1,5 +1,5 @@
 <div style="display: flex; align-items: center;">
-    <img src="https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/25331716365409_.pic_hd.jpg" alt="Profile Picture" style="width: 200px; margin-right: 20px;">
+    <img src="https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/25331716365409_.pic_hd.jpg" alt="Profile Picture" style="width: 200px; margin-right: 100px;">
     <div>
         <h2 style="margin-bottom: 10px;">Name: 卓甜甜 (Mary)</h2>
         <p><strong>Class:</strong> 艺术与科技22A1 (2+2)</p>

@@ -18,15 +18,18 @@ We will use the following tools to construct our own web page:
 Firstly, you need to create a new repository on GitHub to host your website.
 
 1. Log in to your GitHub account.
+
 2. Create a public repository where you can collaborate with your team to create web content.
 
-![图片1]（https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/1.png）
+  ![图片1]（https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/662e33642dcd1280d42a513bac9e23d3fc44b10a/images/webbuild/1.png）
 
 3. Name your repository, choose whether it's public or private. Add a README file to share your information, then click the "create repository" button.
 
     ![图片2](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/2.png)
+
 4. 
 Set the page to be empty. Click on the settings of the repository and select "Pages" on the left. Choose "main" and "/root" and save. The link above allows you to view the page.
+
     ![图片3](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/3.png)
 
 
@@ -38,6 +41,7 @@ Set the page to be empty. Click on the settings of the repository and select "Pa
 2. Click on "Settings", find "Collaborators" on the left, then click "Add people", enter their email addresses, and set their role (maintainer). 
    
    ![图片5](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/5.png)  
+
    ![图片6](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/6.png)
 
 <h3 style="color: #e19cab;">Upload to Web</h3>
@@ -47,6 +51,7 @@ Clone the repository to GitHub.
 1. Click on "Add", "Clone a resource", find the repository you want to clone. Finally, click "Clone".
 
    ![图片7](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/7.png)  
+
    ![图片8](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/8.png)
 
 <h3 style="color: #e19cab;">GitHub Desktop Login</h3>
@@ -58,6 +63,7 @@ Clone the repository to GitHub.
 2. After making changes to the document, input any content in the first box, then click "Commit to main", and then "Push origin". If the icon displays a loop, synchronization is successful.
 
    ![图片10](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/10.png)  
+
    ![图片11](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/11.png)
 
 <h2 style="color: #e19cab;">How to Deploy and Analyze Docsify Document Website</h2>
@@ -84,11 +90,11 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 ![图片19](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/19.png)
 
 2. Determine the location, then initialize the environment: After entering the following code, input y in the yellow box.
-   `docsify init ./docs`
+            `docsify init ./docs`
 ![图片20](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/c13c15d6c49abcfabcb0de1635df615765529b29/images/webbuild/20.png)
 
-3.Preview:  
-   `docsify serve docs`
+3.Preview: `docsify serve docs`
+
 4. Access in browser:：http://localhost:3000
 
 ![图片21](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/21.jpg)
@@ -101,6 +107,7 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 
 2. Write Configuration and Content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Within the <body> tag, write the content of the webpage cover, including titles, slogans, background images or videos, etc.
 
+<code>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -127,7 +134,7 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 </html>
-
+</code>
 
 ![图片24](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/24.jpg)
 

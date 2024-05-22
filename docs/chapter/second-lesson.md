@@ -101,34 +101,71 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 
 2. Write Configuration and Content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Within the <body> tag, write the content of the webpage cover, including titles, slogans, background images or videos, etc.
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BUNBUN TEAM</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="Welcome! Here is the website of the BUNBUN Group, we are a group of five people with no basic computer knowledge, but we are always curious, learning spirit and our own unique personality! Let's always keep it warm!" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+ 
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'BUNBUN TEAM',
+      repo: 'https://nexmaker-fab.github.io/2024ZWU-IS-BUNBUN/',
+      loadSidebar:true,
+      coverpage: 'coverpage.md',
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
+
+
 ![图片24](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/24.jpg)
 
-3. Add CSS Styles: Within the <head> tag, use <style> tags or link external CSS files to add styles to the webpage cover, including adjusting the size of background images, text color, and size, etc.
+## 3. Add CSS Styles
 
-4. Testing and Debugging: After saving the file, open the HTML file in a browser to view the effect of the webpage cover and perform necessary debugging and modifications until the desired effect is achieved.
+In the `<head>` tag, you can use `<style>` tags or link external CSS files to add styles to the webpage cover, including adjusting the size of background images, text color, and size, etc.
 
-<h3 style="color: #e19cab;">4. Setting up the Cover Page</h3>
+## 4. Setting up the Cover Page
 
-1. Create a cover page file.
+### Create a cover page file
 
-![图片25]![](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/25.png)
+![Cover Page](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/25.png)
 
-<h3 style="color: #e19cab;">5.建立sidebar：</h3>
+## 5. Establishing the Sidebar
 
-1. Add a Sidebar Container in the Webpage Cover: In the HTML structure of the webpage cover, add a <div> or other container element as the container for the sidebar.
+### 1. Add a Sidebar Container in the Webpage Cover
 
-2. Write Sidebar Content: Within the sidebar container, write the content of the sidebar, including navigation links, search box, personal profile or information, etc.
+In the HTML structure of the webpage cover, add a `<div>` or other container element as the container for the sidebar.
 
-![图片26](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/26.png)
+### 2. Write Sidebar Content
 
-3. Add CSS Styles to the Sidebar: Use CSS styles to add styles to the sidebar container and its contents, including setting background color, border styles, text styles, etc.
+Within the sidebar container, write the content of the sidebar, including navigation links, search box, personal profile or information, etc.
 
-4. Testing and Debugging: After saving the file, view the effect of the webpage cover and sidebar in a browser to ensure they display and respond correctly on different devices.
+![Sidebar Content](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/26.png)
 
-<h2 style="color: #e19cab;">5. Deploy to GitHub Pages (Optional):</h2>
+### 3. Add CSS Styles to the Sidebar
+
+Use CSS styles to add styles to the sidebar container and its contents, including setting background color, border styles, text styles, etc.
+
+### 4. Testing and Debugging
+
+After saving the file, view the effect of the webpage cover and sidebar in a browser to ensure they display and respond correctly on different devices.
+
+## 5. Deploying to GitHub Pages (Optional)
+
 If you want to deploy the document website to GitHub Pages, you can push the Docsify project to a GitHub repository and enable the GitHub Pages feature.
 
-<h3 style="color: #e19cab;">Image Upload</h3>
+### Image Upload
 
 1. Install PicGo.
 2. Create a new image repository on GitHub.
@@ -136,20 +173,20 @@ If you want to deploy the document website to GitHub Pages, you can push the Doc
 4. Obtain the key.
 5. Set the custom domain to use CDN acceleration. For example, `https://cdn.jsdelivr.net/gh/username/repository`, complete the PicGo setup.
 
-   ![图片13](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/13.png)  
+![PicGo Setup](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/13.png)  
 
-   ![图片14](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/14.png)  
+![PicGo Key](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/14.png)  
 
-   ![图片15](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/15.png)
+![PicGo Upload](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/15.png)
 
-6. 点击图床设置，找到GitHub，将密钥复制到token上，其他的按要求填完。  
+6. Click on "Image Bed Settings", find GitHub, copy the key to the token, and fill in the rest as required.  
 
-   ![图片16](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/16.png)
+![GitHub Settings](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/16.png)
 
-7. 接着将图片拖拽到上传区，在相册中查看是否上传成功，同时可以复制图片路径 
+7. Then drag the picture to the upload area, check if it is uploaded successfully in the album, and you can also copy the picture path. 
 
-   ![图片17](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/17.png)  
+![Upload Successful](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/17.png)  
 
-   ![图片18](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/18.png)
-  
-  (ps. If PicGo configuration keeps failing, you can directly create a folder named "images" in your GitHub repository and add files to it.)
+![Copy Path](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/18.png)
+
+(ps. If PicGo configuration keeps failing, you can directly create a folder named "images" in your GitHub repository and add files to it.)

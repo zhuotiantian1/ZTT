@@ -21,7 +21,7 @@ Firstly, you need to create a new repository on GitHub to host your website.
 
 2. Create a public repository where you can collaborate with your team to create web content.
 
-  ![图片1]（https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/blob/662e33642dcd1280d42a513bac9e23d3fc44b10a/images/webbuild/1.png）
+  ![图片1]（https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/662e33642dcd1280d42a513bac9e23d3fc44b10a/images/webbuild/1.png）
 
 3. Name your repository, choose whether it's public or private. Add a README file to share your information, then click the "create repository" button.
 
@@ -107,8 +107,7 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 
 2. Write Configuration and Content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Within the <body> tag, write the content of the webpage cover, including titles, slogans, background images or videos, etc.
 
-<code>
-<!DOCTYPE html>
+<code><!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -133,8 +132,7 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
-</html>
-</code>
+</html></code>
 
 ![图片24](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/24.jpg)
 

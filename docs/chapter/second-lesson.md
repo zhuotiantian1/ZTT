@@ -21,7 +21,7 @@ Firstly, you need to create a new repository on GitHub to host your website.
 
 2. Create a public repository where you can collaborate with your team to create web content.
 
-  ![图片1]（https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/662e33642dcd1280d42a513bac9e23d3fc44b10a/images/webbuild/1.png）
+  ![图片1](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/1.png)）
 
 3. Name your repository, choose whether it's public or private. Add a README file to share your information, then click the "create repository" button.
 

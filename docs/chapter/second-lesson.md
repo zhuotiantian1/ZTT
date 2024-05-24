@@ -172,7 +172,27 @@ In the HTML structure of the webpage cover, add a `<div>` or other container ele
 Within the sidebar container, write the content of the sidebar, including navigation links, search box, personal profile or information, etc.
 
 ![Sidebar Content](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/26.png)
-
+```markdown
+-[Team introduce] (Team-introduce/Team-introduce.md)
+-Team members
+-[Member1] (Teammembers/Member1.md)
+-[Member2] (Teammembers/Member2-md)
+-[Member3] (Teammembers/Member3.md)
+-[Member4] (Teammembers/Member4.md)
+-[Member5] (Teammembers/Member5.md)
+- Daily homework
+- [1. how to build web] (homework/how-to-build-web.md)
+- [2. arduino basic] (homework/arduino-basic.md)
+- [3. CAD]()
+- [4. 3D printing]()
+- Final project
+- topic
+- innovation
+- market
+- how to design
+- how to make
+-SDGS
+```
 ### 3. Add CSS Styles to the Sidebar
 
 Use CSS styles to add styles to the sidebar container and its contents, including setting background color, border styles, text styles, etc.

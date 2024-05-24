@@ -7,6 +7,8 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- Prism CSS -->
+  <link rel="stylesheet" href="//unpkg.com/prismjs/themes/prism.css">
 </head>
 <body>
   <div id="app"></div>
@@ -15,15 +17,24 @@
       name: 'zju-fab',
       repo: '',
       loadSidebar: true,
-      loadNavbar: true,
       coverpage: true,
-      loadNavbar: true,
       coverpage: '_coverpage.md', // 指定封面页文件
       subMaxLevel: 3,
       homepage: 'README.md', // 指定主页文件
+      markdown: {
+        // 启用 Prism.js
+        prism: true,
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+   <!-- 引用 Prism JavaScript -->
+   <script src="//unpkg.com/prismjs/prism.js"></script>
+   <!-- 加载 Prism.js 的 C/C++ 支持 -->
+  <script src="//unpkg.com/prismjs/components/prism-c.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-cpp.min.js"></script>
+  <!-- 引入 Prism.js 的 HTML 语言支持 -->
+  <script src="//unpkg.com/prismjs/components/prism-markup.min.js"></script>
 </body>
 </html>

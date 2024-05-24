@@ -107,7 +107,8 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 
 2. Write Configuration and Content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Within the <body> tag, write the content of the webpage cover, including titles, slogans, background images or videos, etc.
 
-<code><!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -132,7 +133,8 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
-</html></code>
+</html>
+```
 
 ![图片24](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/24.jpg)
 

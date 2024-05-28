@@ -125,33 +125,34 @@ If you want to deploy the document website to GitHub Pages, you can push the Doc
 2. Write Configuration and Content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Within the <body> tag, write the content of the webpage cover, including titles, slogans, background images or videos, etc.
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>/* html 文档类型 */
+<html lang="en">/* 指定语言为英语 */
 <head>
-  <meta charset="UTF-8">
-  <title>BUNBUN TEAM</title>
+  <meta charset="UTF-8">/*设置字符集为UTF-8 */
+  <title>BUNBUN TEAM</title>/*设置页面标题 */
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="Welcome! Here is the website of the BUNBUN Group, we are a group of five people with no basic computer knowledge, but we are always curious, learning spirit and our own unique personality! Let's always keep it warm!" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
  
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">/*引入Docsify默认主题样式 */
+  <link rel="stylesheet" href="custom.css"> /*引入自定义CSS文件 */
 </head>
 <body>
   <div id="app"></div>
   <script>
-    window.$docsify = {
-      name: 'BUNBUN TEAM',
-      repo: 'https://nexmaker-fab.github.io/2024ZWU-IS-BUNBUN/',
-      loadSidebar:true,
-      coverpage: 'coverpage.md',
+    window.$docsify = {/*设置Docsify配置 */
+      name: 'BUNBUN TEAM',/*设置网站名称 */
+      repo: 'https://nexmaker-fab.github.io/2024ZWU-IS-BUNBUN/',/*设置仓库链接*/
+      loadSidebar:true,  /*是否加载侧边栏*/
+      coverpage: 'coverpage.md',/*设置封面页面*/
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Docsify v4 --> /*引入Docsify库  */
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> 
 </body>
 </html>
 ```
+ps: Because markdown only supports basic text writing, we often need <html> to assist with complex formats and styles
 
 ![图片24](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/24.jpg)
 
@@ -221,15 +222,15 @@ Use CSS styles to add styles to the sidebar container and its contents, includin
 ![PicGo](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/css.png)
 ```markdown
 body {
-background-color:I#030e1b;
+background-color:I#030e1b;/* 正文部分背景颜色 */
 color:＃ffff；/* 正文部分的字体颜色 */
 }
 h1, h2, h3 {
 color:#f9f9f9:
 }
 .sidebar {
-background-color:#e19cab;
-color: #030e1b;
+background-color:#e19cab;/* 侧边栏背景颜色 */
+color: #030e1b;/* 侧边栏字体颜色 */
 }
 • coverpage{
 background: linear-gradient (to right, #030e1b, #0b3459) !important:

@@ -178,15 +178,15 @@ In the `<head>` tag, you can use `<style>` tags or link external CSS files to ad
 
 ![Cover Page](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/25.png)
 ```markdown
-<!-- coverpage. md —>
-<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/
+<!-- coverpage. md —> /*markdown语言 */
+<img src="https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/   /*标题为“BUNBUN”  */
 7a18b93ef8f24a06ee2b7e4459f9f88af37e92df/images/WechatIMG357-jpg" alt="Group
 Image"width="500" style="display:block;margin:auto;">
-#<span style= "color: white:">BUNBUN</span>
+#<span style= "color: white:">BUNBUN</span>  /*采用白色字体 */
 ><span stvle="color: white:">Hello! This is Group 8 - BUNBUN! Here is our
 group's website! Nice to meet you!</span>
 -<span style="color: white;'>Keep the passion!</span>
-[Get Started] (Team-introduce/Team-introduce.md)
+[Get Started] (Team-introduce/Team-introduce.md)  /*链接展示团队介绍页面 */
 <!--在Markdown文件中设置背景-->
 <!-- 设置背景颜色-->
 ! [color] (#030e1b)
@@ -201,24 +201,24 @@ In the HTML structure of the webpage cover, add a `<div>` or other container ele
 
 Within the sidebar container, write the content of the sidebar, including navigation links, search box, personal profile or information, etc.
 
-![Sidebar Content](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/sidebar.png)
+![Sidebar Content](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/sideba2r.png)
 
 ```markdown
 -  [Team introduce](Team-introduce/Team-introduce.md)
-- Team members
-  - [Rain](Teammembers/Rain.md)
+- Team members   /*主部分1 */
+  - [Rain](Teammembers/Rain.md)      /*次部分 */
   - [Mary](Teammembers/Mary.md)
   - [Ivy](Teammembers/Ivy.md)
   - [Jessica](Teammembers/Jessica.md)
   - [Harlan](Teammembers/Harlan.md)
-- Daily homework
+- Daily homework     /*主部分2 */
   - [1. how to build web](homework/how-to-build-web.md)
   - [2. arduino basic](homework/arduino-basic.md)
   - [3. arduino input](homework/arduino-input.md)
   - [4. arduino output](homework/arduino-output.md)
   - [5. processing](homework/processing.md)
   - [6. CAD](homework/cad.md)
-- Final project
+- Final project      /*主部分3 */
   - topic
   - innovation
   - market

@@ -90,6 +90,19 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 
 If you want to deploy the document website to GitHub Pages, you can push the Docsify project to a GitHub repository and enable the GitHub Pages feature.
 
+<h3 style="color: #e19cab;">GitHub Desktop Login</h3>
+
+1. Find your repository, click "Open in Visual Studio Code", input new content in Visual Studio Code, and save.
+
+   ![图片9](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/9.png)
+
+2. After making changes to the document, input any content in the first box, then click "Commit to main", and then "Push origin". If the icon displays a loop, synchronization is successful.
+
+   ![图片10](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/10.png)  
+
+   ![图片11](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/11.png)
+
+
 ### Image Upload
 
 1. Install PicGo.
@@ -122,7 +135,13 @@ If you want to deploy the document website to GitHub Pages, you can push the Doc
 
 ![图片22](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/22.png)
 
-2. Write Configuration and Content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Within the <body> tag, write the content of the webpage cover, including titles, slogans, background images or videos, etc.
+2. Write Configuration and Content: In the newly created HTML file, write the basic structure of the webpage, including <html>, <head>, and <body> tags. Within the <body> tag, write the content of the webpage cover, including titles, slogans, background images or videos, etc.ps: Because markdown only supports basic text writing, we often need <html> to assist with complex formats and styles
+
+![图片24](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/24.jpg)
+
+## 3. Add CSS Styles
+
+In the `<head>` tag, you can use `<style>` tags or link external CSS files to add styles to the webpage cover, including adjusting the size of background images, text color, and size, etc.
 
 ```html
 <!DOCTYPE html>/* html 文档类型 */
@@ -152,14 +171,6 @@ If you want to deploy the document website to GitHub Pages, you can push the Doc
 </body>
 </html>
 ```
-ps: Because markdown only supports basic text writing, we often need <html> to assist with complex formats and styles
-
-![图片24](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/24.jpg)
-
-## 3. Add CSS Styles
-
-In the `<head>` tag, you can use `<style>` tags or link external CSS files to add styles to the webpage cover, including adjusting the size of background images, text color, and size, etc.
-
 
 ## 4. Setting up the Cover Page
 
@@ -242,14 +253,3 @@ color:white !important;
 
 After saving the file, view the effect of the webpage cover and sidebar in a browser to ensure they display and respond correctly on different devices.
 
-<h3 style="color: #e19cab;">GitHub Desktop Login</h3>
-
-1. Find your repository, click "Open in Visual Studio Code", input new content in Visual Studio Code, and save.
-
-   ![图片9](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/9.png)
-
-2. After making changes to the document, input any content in the first box, then click "Commit to main", and then "Push origin". If the icon displays a loop, synchronization is successful.
-
-   ![图片10](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/10.png)  
-
-   ![图片11](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/11.png)

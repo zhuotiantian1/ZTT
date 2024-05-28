@@ -44,9 +44,7 @@ Set the page to be empty. Click on the settings of the repository and select "Pa
 
    ![图片6](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/6.png)
 
-<h3 style="color: #e19cab;">Upload to Web</h3>
-
-Clone the repository to GitHub.
+<h3 style="color: #e19cab;">Clone the repository to GitHub.</h3>
 
 1. Click on "Add", "Clone a resource", find the repository you want to clone. Finally, click "Clone".
 
@@ -54,17 +52,6 @@ Clone the repository to GitHub.
 
    ![图片8](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/8.png)
 
-<h3 style="color: #e19cab;">GitHub Desktop Login</h3>
-
-1. Find your repository, click "Open in Visual Studio Code", input new content in Visual Studio Code, and save.
-
-   ![图片9](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/9.png)
-
-2. After making changes to the document, input any content in the first box, then click "Commit to main", and then "Push origin". If the icon displays a loop, synchronization is successful.
-
-   ![图片10](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/10.png)  
-
-   ![图片11](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/11.png)
 
 <h2 style="color: #e19cab;">How to Deploy and Analyze Docsify Document Website</h2>
 Docsify is a lightweight document website generation tool that allows you to quickly build interactive document websites. Below is a brief tutorial on how to deploy and analyze a document website using Docsify.
@@ -99,7 +86,37 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 
 ![图片21](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/21.jpg)
 
-<h3 style="color: #e19cab;">3. Creating Webpage Cover:</h3>
+## 3. Deploying to GitHub Pages (Optional)
+
+If you want to deploy the document website to GitHub Pages, you can push the Docsify project to a GitHub repository and enable the GitHub Pages feature.
+
+### Image Upload
+
+1. Install PicGo.
+2. Create a new image repository on GitHub.
+3. Access the image bed settings.
+4. Obtain the key.
+5. Set the custom domain to use CDN acceleration. For example, `https://cdn.jsdelivr.net/gh/username/repository`, complete the PicGo setup.
+
+![PicGo Setup](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/13.png)  
+
+![PicGo Key](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/14.png)  
+
+![PicGo Upload](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/15.png)
+
+6. Click on "Image Bed Settings", find GitHub, copy the key to the token, and fill in the rest as required.  
+
+![PicGo Up load](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/%E5%AF%86%E9%92%A5.png)
+7. Then drag the picture to the upload area, check if it is uploaded successfully in the album, and you can also copy the picture path. 
+
+![Upload Successful](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/17.png)  
+
+![Copy Path](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/18.png)
+
+(ps. If PicGo configuration keeps failing, you can directly create a folder named "images" in your GitHub repository and add files to it.)
+
+
+<h3 style="color: #e19cab;">4. Creating Webpage Cover:</h2>
 
 1. Create a new folder to store your Docsify project, and within that folder, create an HTML file named index.html. In Visual Studio, select "File" > "New" > "File", choose "HTML File" as the file type, and name the file.
 
@@ -142,6 +159,7 @@ Click on "Setting", find "Developer Setting", click on "Tokens (classic)", selec
 
 In the `<head>` tag, you can use `<style>` tags or link external CSS files to add styles to the webpage cover, including adjusting the size of background images, text color, and size, etc.
 
+
 ## 4. Setting up the Cover Page
 
 ### Create a cover page file
@@ -171,62 +189,66 @@ In the HTML structure of the webpage cover, add a `<div>` or other container ele
 
 Within the sidebar container, write the content of the sidebar, including navigation links, search box, personal profile or information, etc.
 
-![Sidebar Content](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/26.png)
+![Sidebar Content](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/sidebar.png)
+
 ```markdown
--[Team introduce] (Team-introduce/Team-introduce.md)
--Team members
--[Member1] (Teammembers/Member1.md)
--[Member2] (Teammembers/Member2-md)
--[Member3] (Teammembers/Member3.md)
--[Member4] (Teammembers/Member4.md)
--[Member5] (Teammembers/Member5.md)
+-  [Team introduce](Team-introduce/Team-introduce.md)
+- Team members
+  - [Rain](Teammembers/Rain.md)
+  - [Mary](Teammembers/Mary.md)
+  - [Ivy](Teammembers/Ivy.md)
+  - [Jessica](Teammembers/Jessica.md)
+  - [Harlan](Teammembers/Harlan.md)
 - Daily homework
-- [1. how to build web] (homework/how-to-build-web.md)
-- [2. arduino basic] (homework/arduino-basic.md)
-- [3. CAD]()
-- [4. 3D printing]()
+  - [1. how to build web](homework/how-to-build-web.md)
+  - [2. arduino basic](homework/arduino-basic.md)
+  - [3. arduino input](homework/arduino-input.md)
+  - [4. arduino output](homework/arduino-output.md)
+  - [5. processing](homework/processing.md)
+  - [6. CAD](homework/cad.md)
 - Final project
-- topic
-- innovation
-- market
-- how to design
-- how to make
--SDGS
+  - topic
+  - innovation
+  - market
+  - how to design 
+  - how to make
+  - SDGs
 ```
 ### 3. Add CSS Styles to the Sidebar
 
 Use CSS styles to add styles to the sidebar container and its contents, including setting background color, border styles, text styles, etc.
 
+![PicGo](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/css.png)
+```markdown
+body {
+background-color:I#030e1b;
+color:＃ffff；/* 正文部分的字体颜色 */
+}
+h1, h2, h3 {
+color:#f9f9f9:
+}
+.sidebar {
+background-color:#e19cab;
+color: #030e1b;
+}
+• coverpage{
+background: linear-gradient (to right, #030e1b, #0b3459) !important:
+color:white !important;
+}
+```
+
 ### 4. Testing and Debugging
 
 After saving the file, view the effect of the webpage cover and sidebar in a browser to ensure they display and respond correctly on different devices.
 
-## 5. Deploying to GitHub Pages (Optional)
+<h3 style="color: #e19cab;">GitHub Desktop Login</h3>
 
-If you want to deploy the document website to GitHub Pages, you can push the Docsify project to a GitHub repository and enable the GitHub Pages feature.
+1. Find your repository, click "Open in Visual Studio Code", input new content in Visual Studio Code, and save.
 
-### Image Upload
+   ![图片9](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/9.png)
 
-1. Install PicGo.
-2. Create a new image repository on GitHub.
-3. Access the image bed settings.
-4. Obtain the key.
-5. Set the custom domain to use CDN acceleration. For example, `https://cdn.jsdelivr.net/gh/username/repository`, complete the PicGo setup.
+2. After making changes to the document, input any content in the first box, then click "Commit to main", and then "Push origin". If the icon displays a loop, synchronization is successful.
 
-![PicGo Setup](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/13.png)  
+   ![图片10](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/10.png)  
 
-![PicGo Key](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/14.png)  
-
-![PicGo Upload](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/15.png)
-
-6. Click on "Image Bed Settings", find GitHub, copy the key to the token, and fill in the rest as required.  
-
-![GitHub Settings](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/16.png)
-
-7. Then drag the picture to the upload area, check if it is uploaded successfully in the album, and you can also copy the picture path. 
-
-![Upload Successful](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/17.png)  
-
-![Copy Path](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/18.png)
-
-(ps. If PicGo configuration keeps failing, you can directly create a folder named "images" in your GitHub repository and add files to it.)
+   ![图片11](https://github.com/NexMaker-Fab/2024ZWU-IS-8-BUNBUN/raw/cfe7ae2c17bd472adca8561bedfd0ecc1638589b/images/webbuild/11.png)

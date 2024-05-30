@@ -196,7 +196,7 @@ group's website! Nice to meet you!</span>
 <h3 style="color: #e19cab;">1. Add a Sidebar Container in the Webpage Cover</h3>
 
 In the HTML structure of the webpage cover, add a `<div>` or other container element as the container for the sidebar.Meanwhile, set the sidebar to true to allow it to be loaded.
-```html
+```markdown
  loadSidebar:true,
       coverpage: 'coverpage.md'
 ```

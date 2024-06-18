@@ -2,3 +2,4 @@
 - [Chapter 1: First Lesson](chapter/first-lesson.md)
 - [Chapter 2: Second Lesson](chapter/second-lesson.md)
 - [Chapter 3: Third Lesson](chapter/third-lesson.md)
+- [Chapter 4: 4](chapter/4.md)

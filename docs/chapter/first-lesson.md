@@ -18,7 +18,7 @@ Applications**: Metamaterials are being explored for applications such as cloaki
 <h2 style="color: #e19cab;"> 1.Titanium alloy: Heat treatment</h2>
 The titanium alloy parts are treated with solid solution and heated to the alloy solid solution temperature to dissolve the solid solution in the alloy. This is followed by rapid cooling (quenching) to maintain a uniform distribution of the solid solution, followed by aging treatment to keep the material at a lower temperature for a certain time, so that the precipitation appears around the grain boundaries and dislocations to enhance the strength and hardness of the material.
 
-<h1 style="color: #e19cab;">2.ABS plastic: spray coating</h2>
+<h2 style="color: #e19cab;">2.ABS plastic: spray coating</h2>
 First, prepare the ABS plastic surface to ensure that it is clean and dust-free. Then, use a suitable primer for the ABS plastic surface to enhance the adhesion of the paint film. The desired color of paint is then sprayed to ensure uniform coverage of the entire surface. Finally, proper drying and curing is carried out to ensure that the coating is strong and durable. This treatment not only improves the appearance quality of ABS plastic, but also enhances its durability, which is suitable for a variety of application scenarios, such as automotive parts, furniture and electronic product housings.
 
 ![PIGO](https://cdn.jsdelivr.net/gh/zhuotiantian1/Mary/img/0a960746cf661eeae1cfb61c6b297171.jpeg)

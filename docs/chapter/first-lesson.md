@@ -30,10 +30,15 @@ The target group we choose is college students in the final week. According to o
 
 <h3 style="color: #e19cab;">Characteristics of target group</h3>
 1.Lonely and helpless: Although many students review with their classmates, some students may feel lonely because everyone's learning content and pace are different.
+
 2.Feeling insecure: Some students may have self-doubt and worry that they will not be able to cope with the exam, showing unease and lack of confidence.
+
 3.Exhaustion: Long periods of intensive review and irregular work and rest can lead to a feeling of mental exhaustion, feeling physically and mentally exhausted.
+
 4.Nervous anxiety: As the exam is approaching, many students feel nervous and anxious, worrying about whether their review is sufficient and whether they can get good grades in the exam.
+
 5.Less social: Students will reduce social activities, spend more time revising, and may temporarily reduce communication with friends and family.
+
 6.Stress response: In the face of test stress, some students may show stress reactions, such as mood swings, irritability, and even physical reactions such as headache or stomach pain before the test.
 
 <h3 style="color: #e19cab;">Simulation scenario assumption</h3>
